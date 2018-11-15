@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>99 Lines of Code In The File</title>
+    <style>
+        body {
+            background-color: #d24dff;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let friends = ['Tonya', 'Faye', 'Jeff', 'Paul', 'Josh'];
+        let num = 99;
+
+        for (var i = 0; i < friends.length; i++) {
+            console.log(friends[i]);
+
+            for (num = 99; num > 0; num--) {
+
+                if (num === 2) {
+                    console.log(num + " lines of code in the file, " + num + " lines of code" + " if  " + friends[i] + " strikes one out, clears it all out, " + (num - 1) + " line of code in the file")
+                } else if (num === 1) {
+                    console.log(num + " lines of code in the file, " + num + " lines of code" + " if  " + friends[i] + " strikes one out, clears it all out, no more lines of code in the file")
+                } else {
+                    console.log(num + " lines of code in the file, " + num + " lines of code" + " if  " + friends[i] + " strikes one out, clears it all out, " + (num - 1) + " lines of code in the file")
+                }
+            }
+        }
+
+    </script>
+
+    <h1>My Singing Friends</h1>
+    <div class="friend">
+        <h3>"Friend"</h3>
+        <p>"Test1"</p>
+        <p>"Test2"</p>
+        <p>"Test3"</p>
+        <p>"Test4"</p>
+        <p>"Test5"</p>
+    </div>
+
+</body>
+
+</html>
